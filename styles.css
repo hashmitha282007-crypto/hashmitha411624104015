@@ -1,0 +1,99 @@
+p{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h1{
+    padding: 20px;
+    border: 20px solid green;
+    margin:20px;
+}
+/*img{
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    padding: 50px;
+}*/
+video{
+    width: 500px;
+}
+.imgvideo{
+    background-color: blue;
+    padding:50px;
+}
+#p1{
+    font-weight: 600;
+    font-style: italic;
+}
+#p2{
+    font-style: italic;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+th{
+    background-color: aqua;
+}
+button{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 5px;
+    margin:20px;
+    border-radius: 100%;
+}
+button:hover{
+    background-color: chartreuse;
+}
+h1:hover{
+    color:chartreuse;
+}
+form{
+    height: 500px;
+    width: 20%;
+    background-color: darkorange;
+    padding: 50px;
+    border-radius: 10%;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+}
+/*
+#one{
+    grid-row:1/2;
+
+}
+#two{
+    grid-row:1/2;
+}
+#three{
+    grid-row:2/3;
+}
+#four{
+    grid-row:2/3;
+}
+#five{
+    grid-row:2/3;
+}#six{
+    grid-row:2/3;
+}*/
+nav{
+            height: 500px;
+            width: 500px;
+            background-color:hotpink;
+            padding: 100px;
+
+        }
+        @media(min-width: 1024px){
+            nav{
+                display:flex;
+                flex-direction: row;
+                gap:50px;
+            }
+        }
