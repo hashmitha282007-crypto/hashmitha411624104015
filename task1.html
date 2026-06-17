@@ -161,7 +161,9 @@ button:hover{
     </table>
 
     <!-- Button -->
-    <button>Click Me</button>
+<button onclick="increaseCount()">Click Me</button>
+
+<p id="count">Button Clicks: 0</p>
 
     <!-- Grid -->
     <div class="grid-container">
@@ -174,5 +176,14 @@ button:hover{
         <div class="box">7</div>
         <div class="box">8</div>
     </div>
+    <script>
+let count = 0;
+
+function increaseCount(){
+    count++;
+    document.getElementById("count").innerText =
+    "Button Clicks: " + count;
+}
+</script>
 </body>
 </html>
